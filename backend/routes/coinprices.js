@@ -12,7 +12,7 @@ router.route('/').get((req, res) => {
   const query = req.query.date === undefined ? {} : {date : {$in:[firstDay, oneDayBefore, sevenDayBefore, oneMonthBefore]}};
   CoinPrice.find(query)
     .then(coinprices => {
-      console.log(coinprices)
+      //console.log(coinprices)
       res.json(coinprices)}) 
     .catch(err => res.status(400).json('Error: ' + err));
 });
