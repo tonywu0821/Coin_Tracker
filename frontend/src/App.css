@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to left,  #222020, #131111);
+  font-family: Oxygen, sans-serif;
+  font-size: 1.2rem;
+  color:rgb(247, 244, 244);
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --spacer: 2rem;
+}
+
+html {
+  font-size: 18px;
+}
+
+.container{
+  margin-top: 15px;
+  background-color: #000000;
+  min-height: 95vh;
+  width: 95vw;
+  max-width: 1500px;
+  padding: var(--spacer);
+  border-radius: 20px;
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+
+}
+
+thead {
+  background-color: rgb(247, 242, 242);
+  text-align: center;
+  color: #383838;
+}
+td {
+  color: #dbdada;
+  text-align: right;
+}
+
+.resposiveTable {
+  overflow-x: auto;
+}
+
+label {
+  font-size:16px;
+  font-family: Oxygen, sans-serif;
+  color:rgb(182, 177, 177);
+}
+
