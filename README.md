@@ -3,7 +3,7 @@ This is a single-page application that can help people track cryptocurrency pric
 It is created with the MongoDB, Express.js, React.js, Node.js (MERN) stack.
 
 ## Demonstration
-[Demo-Heroku(not deployed yet)]()
+[Demo-Heroku](https://quiet-headland-25770.herokuapp.com/)
 [Demo-AWS](http://3.19.53.239/)
 
 * **Coin Tracker:** 
