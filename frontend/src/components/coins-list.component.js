@@ -45,7 +45,7 @@ export default class CoinsList extends Component {
   }
 
   getCoinData(date) {
-    console.log("getCoinData",date.toISOString());
+    //console.log("getCoinData",date.toISOString());
     axios.get('http://localhost:5000/coinprices/',{ params: {date : date}})
       .then(response => {
         if(response.data.length === 0){
@@ -153,7 +153,7 @@ export default class CoinsList extends Component {
     this.setState({
       date: date
     })
-    console.log("changed date:",date.toISOString());
+    //console.log("changed date:",date.toISOString());
     this.getCoinData(date);
   }
 
@@ -183,7 +183,7 @@ export default class CoinsList extends Component {
   }
 
   coinList() {
-    console.log("coinList:",this.state.coins);
+    //console.log("coinList:",this.state.coins);
     return this.state.coins.map(currentCoin => {
       return <Coin coin={currentCoin} date = {this.state.date} changeStyle = {this.changeStyle} key = {currentCoin.id}/>;
     })
