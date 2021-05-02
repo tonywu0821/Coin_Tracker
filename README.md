@@ -1,6 +1,8 @@
 # Coin_Tracker
 This is a single-page application that can help people track cryptocurrency prices. 
 It is created with the MongoDB, Express.js, React.js, Node.js (MERN) stack.
+Only historical data from October 19 2019 to December 4 2019 are used.
+
 
 ## Demonstration
 [Demo-Heroku](https://quiet-headland-25770.herokuapp.com/)
